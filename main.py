@@ -16,7 +16,7 @@ class AddInfo(StatesGroup):
     que = State()
     ans = State()
 
-bot = Bot(token="7497685119:AAE_nmJX61P99sV9dqw7myH80Z4fjunC2U8", default=DefaultBotProperties(parse_mode=ParseMode.MARKDOWN_V2))
+bot = Bot(token="TOKEN", default=DefaultBotProperties(parse_mode=ParseMode.MARKDOWN_V2))
 dp = Dispatcher()
 db = OpenTableDB()
 
